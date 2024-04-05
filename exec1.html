@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <form method="post">
+                <fieldset>
+                    <legend>Dados do usúario</legend>
+                    <br><br>
+                <label>Nome de usuário: </label>
+                <input type="text" name="nome" id="nome">
+                <br><br>
+                <label>Sexo: </label>
+                <br><br>
+                <select name="sexo" id="sexo">
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+                </select>
+                </fieldset>
+                <br><br>
+            </form>
+        </section>
+
+        <section>
+            <form method="post"></form>
+            <fieldset>
+                <legend>País de origem</legend>
+                <br>
+                <label>Paises: </label>
+                <br>
+                <select name="paises" id="paises">
+                <optgroup label="América">
+                    <option value="brasil">Brasil</option>
+                    <option value="eua">Estados Unidos</option>
+                    <option value="canada">Canadá</option>
+                </optgroup>
+                <optgroup label="Europa">
+                    <option value="alemanha">Alemanha</option>
+                </optgroup>
+                <optgroup label="Ásia">
+                    <option value="jp">Japão</option>
+                </optgroup>
+                </select>
+            </fieldset>
+            <br>
+        </section>
+
+        <section>
+            <fieldset>
+                <legend>Comentários e feedback</legend>
+            <label>Feedback: </label>
+            <br>
+            <textarea name="feedback" id="feedback" cols="80" rows="5"></textarea>
+            <br><br>
+            <label>Idade: </label>
+            <input type="number" name="idade" id="idade" step="1" min="1" max="10000">
+            <br><br>
+            <label>Data: </label>
+            <br>
+            <input type="date" name="data" id="data">
+            </fieldset>
+        </section>
+        <br><br>
+        <center>
+            <input type="submit" value="Enviar">
+        </center>
+    </main>
+
+    <footer>
+        <br><br>
+        <hr>
+        <center>
+            &copy; Formulário de envio
+        </center>
+    </footer>
+    
+</body>
+</html>
